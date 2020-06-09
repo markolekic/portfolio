@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio Page">
+    <meta name="keywords" content="html,css,javascript,marko lekic,web,developer,frontend,kragujevac,bootstrap,jquery,javascript,serbia,srbija,sajtovi">
+    <meta name="author" content="Marko Lekic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko Lekic | Front End Developer</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <link rel="icon" href="img/lekic-transparent.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lora:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <section id="home">
+        <div class="container-fluid pr-0 pl-0 first-nav">
+            <nav class="container my-nav navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#home"><img class="logo" src="img/lekic-transparent.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse my-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link scroll text-uppercase" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll text-uppercase" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll text-uppercase" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!--End of Nav-->
+    <!--Section Home-->
+    <section>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-12">
+                    <img class="home-image" src="img/home1.png" alt="Computers and Desk">
+                    <div class="col-md-6 col-sm-6 pl-0 i-am-marko">
+                        <h1 class="about-header">Hi, I'm Marko Lekic and I love building beautiful web things</h1>
+                        <a href="#about-me">
+                            <p class="text-uppercase buttonlike about-button js-about-scroll-section"><i class="fa fa-caret-down"></i> About me</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Section Home-->
+    <!--Start About me-->
+    <section id="about-me">
+        <div class="container">
+            <div class="row no-gutters align-items-center" style="overflow-x: hidden">
+                <div class="col-lg-6 text-center" data-aos="fade-right" data-aos-duration="800">
+                    <img class="my-photo" src="img/fotka.png" alt="Photo of me">
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-me-side" data-aos="fade-left" data-aos-duration="800">
+                        <hr class="about-up">
+                        <h1 class="about-head-text">About Me</h1>
+                        <p class="about-main-text">Front-end web developer from Kragujevac, Serbia. My journey of learning to code started as a curiosity and become a passion, first with HTML and CSS and later on with Bootstrap library. Once I felt comfortable to code with those technologies I moved on to JavaScript. I have a good understanding of the principles and syntax of the JavaScript and currently I am focused on learning and writing the clean code with JS.</p>
+                        <a href="#">
+                            <p class="text-uppercase buttonlike">Check my resume</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of About me-->
+    <!--Scroll for projects section-->
+    <section>
+        <div class="container" style="overflow-x: hidden">
+            <div class="row no-gutters align-items-center project-with-me">
+                <div class="col-lg-6 pt-5" data-aos="fade-right" data-aos-duration="800">
+                    <h1 class="interest">Scroll to see some of my projects</h1>
+                </div>
+                <div class="col-md-4 d-none d-lg-block pt-5" data-aos="zoom-in" data-aos-duration="800">
+                    <hr class="straight-line">
+                </div>
+                <div class="col-lg-2 pt-5 pb-1 contact-button" data-aos="fade-left" data-aos-duration="800">
+                    <a href="#projects">
+                        <p class="text-uppercase buttonlike">Projects <i class="fa fa-caret-down"></i></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End scroll for projects section-->
+    <!--Start of Projects-->
+    <section id="projects" style="overflow-x: hidden">
+        <div class="container">
+            <div class="row no-gutters projects-whole align-items-center">
+                <!--First project-->
+                <div class="col-lg-6">
+                    <div class="about-project-text-left" data-aos="fade-right" data-aos-duration="800">
+                        <h1>Photographer website</h1>
+                        <p>This is first, as I may say, serious project that I worked on. For this landing page website I used Bootstrap with a little bit of jQuery. I Used jQuery plug-in Ekko-Lightbox for photo gallery.</p>
+                        <div class="tech-used pb-4">
+                            <i class="devicon-html5-plain"></i>
+                            <i class="devicon-css3-plain"></i>
+                            <i class="devicon-bootstrap-plain"></i>
+                            <i class="devicon-jquery-plain"></i>
+                        </div>
+                        <a href="https://github.com/markolekic/jeleninSajt" target="_blank">
+                            <p class="text-uppercase buttonlike">Project code</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center project-image first-project-img" data-aos="fade-right" data-aos-duration="800">
+                    <a href="https://markolekic.github.io/jeleninSajt" target="_blank"><img class="project-img" src="img/projekat-foto.png" alt="Photo-project"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row no-gutters projects-whole align-items-center">
+                <!--Second project-->
+                <div class="col-lg-6 order-lg-1 order-md-2 order-sm-2 order-2 project-image second-project-img" data-aos="fade-left" data-aos-duration="800">
+                    <a href="#"><img class="project-img" src="img\projekat-foto1.png" alt="Photo-project"></a>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-md-1 order-sm-1 order-1">
+                    <div class="about-project-text-right" data-aos="fade-left" data-aos-duration="800">
+                        <h1>Portfolio page</h1>
+                        <p>The idea was to build minimalistic portfolio page. On this project I used jQuery, with some plug-ins. Waypoint plug-in is used for the Navbar, and AOS (Animate on Scroll Library) for Fade scroll effects.</p>
+                        <div class="tech-used pb-4">
+                            <i class="devicon-html5-plain"></i>
+                            <i class="devicon-css3-plain"></i>
+                            <i class="devicon-bootstrap-plain"></i>
+                            <i class="devicon-jquery-plain"></i>
+                        </div>
+                        <a href="#">
+                            <p class="text-uppercase buttonlike">Project code</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row no-gutters projects-whole align-items-center">
+                <div class="col-lg-6">
+                    <!--Third project-->
+                    <div class="about-project-text-left" data-aos="fade-right" data-aos-duration="800">
+                        <h1>Weather App</h1>
+                        <p>This app is showing the weather in countries and cities from all around the globe. It uses the API key from openweather.org which is gotten from fetch(), and then() method which returns a Promise.</p>
+                        <div class="tech-used pb-4">
+                            <i class="devicon-html5-plain"></i>
+                            <i class="devicon-css3-plain"></i>
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                        <a href="https://github.com/markolekic/weatherApp" target="_blank">
+                            <p class="text-uppercase buttonlike">Project code</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 project-image third-project-img" data-aos="fade-right" data-aos-duration="800">
+                    <a href="https://markolekic.github.io/weatherApp" target="_blank">
+                        <img class="project-img" src="img\projekat-foto2.png" alt="Photo-project"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row no-gutters projects-whole align-items-center">
+                <!--Forth project-->
+                <div class="col-lg-6 order-lg-1 order-md-2 order-sm-2 order-2 project-image forth-project-img" data-aos="fade-left" data-aos-duration="800">
+                    <a href="https://markolekic.github.io/favAlbum/" target="_blank">
+                        <img class="project-img" src="img\projekat-foto3.png" alt="Photo-project"></a>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-md-1 order-sm-1 order-1">
+                    <div class="about-project-text-right" data-aos="fade-left" data-aos-duration="800">
+                        <h1>Favorite albums</h1>
+                        <p>In this small application classes and localStorage are used. You can add your favorite band and album name. When the page is refreshed, value is saved in localStorage and displayed on a page.</p>
+                        <div class="tech-used pb-4">
+                            <i class="devicon-html5-plain"></i>
+                            <i class="devicon-bootstrap-plain"></i>
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                        <a href="https://github.com/markolekic/favAlbum" target="_blank">
+                            <p class="text-uppercase buttonlike">Project code</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Projects-->
+    <!--Like what you see section-->
+    <section>
+        <div class="container">
+            <div class="row no-gutters align-items-center project-with-me" style="overflow-x: hidden">
+                <div class="col-lg-6 pt-2 pb-5" data-aos="fade-right" data-aos-duration="800">
+                    <h1 class="interest">Interesting in doing a project with me?</h1>
+                </div>
+                <div class="col-md-4 pt-2 pb-5 d-none d-lg-block" data-aos="zoom-in" data-aos-duration="800">
+                    <hr class="straight-line">
+                </div>
+                <div class="col-lg-2 pt-2 pb-5 contact-button" data-aos="fade-left" data-aos-duration="800">
+                    <a href="mailto:markolekic985@gmail.com?Subject=Hello" target="_top">
+                        <p class="text-uppercase buttonlike">Contact Me</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End like what you see section-->
+    <!--Start of Footer-->
+    <footer id="contact-me">
+        <div class="container">
+            <div class="row no-gutters pb-1 pt-3">
+                <!--Footer nav-->
+                <div class="col-md-9 text-center">
+                    <nav class="nav align-items-center contact-footer">
+                        <a class="navbar-brand" href="#home"> <img class="logo-white" src="img/lekic-transparent1.png" alt="Logo"></a>
+                        <a class="nav-link text-uppercase" href="#about-me">About Me</a>
+                        <a class="nav-link text-uppercase" href="#projects">Projects</a>
+                        <a class="nav-link text-uppercase" href="mailto:someone@example.com?Subject=Hello" target="_top">My Resume</a>
+                    </nav>
+                </div>
+                <!--Social network-->
+                <div class="col-md-3 text-center text-md-right icons">
+                    <!-- Github -->
+                    <a class="tw-ic" href="https://github.com/markolekic" target="_blank">
+                        <i class="fa fa-github" style="font-size: 150%;"></i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic pl-2" href="https://www.linkedin.com/in/marko-lekic-584950b7/" target="_blank">
+                        <i class="fa fa-linkedin" style="font-size: 150%;"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a class="fb-ic pl-2" href="https://www.facebook.com/Danmislisunce" target="_blank">
+                        <i class="fa fa-facebook" style="font-size: 150%;"></i>
+                    </a>
+                    <p class="copyright" style="font-size:10px; color:white;">&copy; 2020 Marko Lekic<p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End of Footer-->
+    <!--JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

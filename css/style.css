@@ -1,0 +1,304 @@
+body {
+    background-color: #f5f5fa !important;
+}
+
+.nav-colorchange {
+    background: #34323d;
+    transition: 0.8s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+.navbar-down {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.nav-colorchange a {
+    color: #fff !important;
+}
+
+.first-nav {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.first-nav-down {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0 !important;
+    padding-left: 2rem !important;
+}
+
+/*Images*/
+.logo,
+.logo-white {
+    width: 40px;
+}
+
+.home-image,
+.my-photo {
+    width: 100%;
+}
+
+.project-image {
+    border-top: 20px;
+    border-left: 20px;
+    border-right: 20px;
+    border-bottom: 0;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.project-img {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.first-project-img {
+    border-color: #ffe9ec;
+}
+
+.second-project-img {
+    border-color: #c3bbb1;
+}
+
+.third-project-img {
+    border-color: #d4ebf2;
+}
+
+.forth-project-img {
+    border-color: #d3d3d3;
+}
+
+.i-am-marko {
+    margin-top: -235px;
+    background-color: #f5f5fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about-me,
+#projects,
+#contact-me {
+    padding-top: 35px;
+}
+
+.about-button {
+    background-color: #23394b;
+    color: #fff !important;
+    border-style: solid 1px #23394b !important;
+}
+
+.about-me-side {
+    width: 80%;
+    padding-left: 100px;
+}
+
+.tech-used {
+    text-align-last: start;
+}
+
+.about-project-text-left,
+.about-project-text-right {
+    width: 80%;
+    padding-left: 100px;
+}
+
+.projects-whole {
+    padding-bottom: 75px;
+}
+
+.straight-line {
+    width: 90%;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Text*/
+h1 {
+    font-family: 'Lora', serif;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif !important;
+    color: #575656;
+}
+
+i {
+    font-size: 300%;
+}
+
+
+/*Style and color*/
+.buttonlike {
+    color: #000;
+    display: inline-block;
+    border: solid 1px #000;
+    padding: 8px 20px 8px 20px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Helvetica', sans-serif !important;
+    transition: 0.3s;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+footer {
+    padding-top: 0 !important;
+    background: #34323d;
+}
+
+footer a {
+    color: #fff !important;
+    transition: 0.3s;
+}
+
+/*Hovers*/
+.nav-link:hover {
+    color: #a3ccc3 !important;
+}
+
+.about-button:hover {
+    color: #23394b !important;
+    transition: 0.3s !important;
+    background: #f5f5fa !important;
+    border: solid 1px !important;
+}
+
+.buttonlike:hover {
+    color: #fff;
+    background: #23394b;
+    border: solid 1px #23394b !important;
+}
+
+.project-img:hover {
+    transform: scale(1.1);
+}
+
+/*Media queries*/
+@media (max-width: 992px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .about-header {
+        padding-top: 5px;
+    }
+
+    .i-am-marko {
+        margin-top: -275px;
+    }
+
+    .pl-3,
+    .px-3 {
+        padding: 0 !important;
+    }
+
+    .about-me-side {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .about-main-text {
+        padding-bottom: 15px;
+    }
+
+    .about-up {
+        display: table;
+    }
+
+    .project-with-me {
+        flex-direction: column;
+    }
+
+    .interest {
+        text-align: -webkit-center;
+        margin-bottom: -20px;
+    }
+
+    .contact-button,
+    .pt-5 {
+        text-align: center;
+    }
+
+    #projects {
+        padding-top: 100px;
+    }
+
+    .about-project-text-left,
+    .about-project-text-right {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 30px;
+        margin-top: -50px;
+    }
+
+    .contact-footer {
+        flex-flow: nowrap;
+    }
+
+    i {
+        font-size: 280%;
+    }
+}
+
+@media (max-width: 768px) {
+    .i-am-marko {
+        margin-top: -275px;
+    }
+
+    .contact-footer {
+        justify-content: center;
+    }
+
+    i {
+        font-size: 240%;
+    }
+
+    .about-header {
+        padding-top: 5px;
+        margin-top: -26px;
+        line-height: 1.1 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .i-am-marko {
+        margin-top: 0;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .icons {
+        padding-top: 5px !important;
+    }
+}
+
+@media (max-width: 420px) {
+    i {
+        font-size: 220%;
+    }
+}
