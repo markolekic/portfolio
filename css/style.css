@@ -4,7 +4,7 @@ body {
 
 .nav-colorchange {
     background: #34323d;
-    transition: 0.8s;
+    transition: 1s;
     box-shadow: 0 0 5px rgba(0, 0, 0, .8);
 }
 
