@@ -38,9 +38,13 @@ body {
     width: 40px;
 }
 
-.home-image,
-.my-photo {
+.home-image {
     width: 100%;
+}
+
+.my-photo {
+    width: 72%;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.2);
 }
 
 .project-image {
