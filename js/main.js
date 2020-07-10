@@ -8,6 +8,7 @@ $(document).ready(function() {
             $('.first-nav').addClass('nav-colorchange a');
             $('.first-nav').addClass('first-nav-down');
             $('.navbar-light').addClass('navbar-dark');
+            $('.animated-icon1 span').css("background-color", "white");
             $('nav').addClass('navbar-down');
             $('.logo').attr("src", "img/lekic-transparent1.png");
         } else {
@@ -15,19 +16,24 @@ $(document).ready(function() {
             $('.first-nav').removeClass('nav-colorchange a');
             $('.first-nav').removeClass('first-nav-down');
             $('.navbar-light').removeClass('navbar-dark');
+            $('.animated-icon1 span').css("background-color", "black");
             $('nav').removeClass('navbar-down');
             $('.logo').attr("src", "img/lekic-transparent.png");
         }
+    });
 
-        //////Hamburger
+
+    //////Hamburger
+
     $(document).ready(function() {
 
         $('.first-button').on('click', function() {
-
             $('.animated-icon1').toggleClass('open');
         });
-        
+
     });
+
+
 
     ////////////////////
     ////Smooth-scrolling
