@@ -22,18 +22,24 @@ $(document).ready(function() {
         }
     });
 
-
-    //////Hamburger
-
+    //////Link click closing collapsed Nav
     $(document).ready(function() {
-
+        $('#navbarSupported a').on('click', function() {
+            if ($(window).width() <= 992) {
+                $(".show").collapse('hide');
+                $('.animated-icon1').removeClass('open');
+            }
+        });
+        //////Hamburger
         $('.first-button').on('click', function() {
             $('.animated-icon1').toggleClass('open');
         });
-
+        /////
+        $('.navbar-brand, #contact-me .nav-link').on('click', function() {
+            $('.show').collapse('hide')
+            $('.animated-icon1').removeClass('open');
+        });
     });
-
-
 
     ////////////////////
     ////Smooth-scrolling
@@ -62,4 +68,19 @@ $(document).ready(function() {
     //////////////
     /////////Fades
     AOS.init();
+});
+
+function removeLocationHash(){
+    var noHashURL = window.location.href.replace(/#.*$/, '');
+    window.history.replaceState('', document.title, noHashURL) 
+}
+window.addEventListener("popstate", function(event){
+    removeLocationHash();
+});
+window.addEventListener("hashchange", function(event){
+    event.preventDefault();
+    removeLocationHash();
+});
+window.addEventListener("load", function(){
+    removeLocationHash();
 });
